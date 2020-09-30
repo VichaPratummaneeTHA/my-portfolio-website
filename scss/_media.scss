@@ -12,6 +12,20 @@
       }
     }
   }
+
+  #home {
+    &-a {
+      .specials {
+        p {
+          height: 58%;
+        }
+
+        a {
+          padding: 0.5rem;
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 800px) {

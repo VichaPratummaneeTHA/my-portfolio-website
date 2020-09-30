@@ -120,13 +120,26 @@ img {
 #home {
   // Home Section A
   &-a {
+    .lead span {
+      font-weight: bold;
+    }
     .specials {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
       grid-gap: 1rem;
-      margin-top: 3rem;
+      margin-top: 2rem;
 
-      .fas {
+      p {
+        height: 65%;
+      }
+
+      a {
+        width: 100%;
+        margin-bottom: 0rem;
+      }
+
+      .fas,
+      .fab {
         color: $main-color;
         padding-bottom: 0.4rem;
       }
@@ -214,6 +227,13 @@ img {
         padding: 1rem;
         padding-right: 24px;
         transition: all 1s ease-in-out;
+      }
+
+      a {
+        display: inline-block;
+        margin-top: 1rem;
+        color: #000;
+        text-decoration: underline;
       }
     }
   }
@@ -440,6 +460,9 @@ img {
     height: 5rem;
     align-items: center;
 
+    .social a {
+      color: $light-color;
+    }
     .social .fab {
       margin-right: 1rem;
       border: 2px #fff solid;
