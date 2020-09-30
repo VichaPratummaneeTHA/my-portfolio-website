@@ -1,8 +1,8 @@
 @import "config";
 @import "utilities";
+@import "lightbox";
 @import "item_grid";
 @import "resume";
-@import "lightbox";
 
 @import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
 
@@ -259,9 +259,14 @@ img {
         margin-bottom: 1rem;
       }
 
+      span {
+        display: inline-block;
+        margin-bottom: 0.5rem;
+      }
+
       i {
         margin-left: 1rem;
-        padding: 0.5rem;
+        padding: 0.2rem;
       }
 
       a:hover {
@@ -361,7 +366,7 @@ img {
   }
 }
 
-// Contact Page
+// Contact Section
 #contact {
   // Section A
   &-a {
@@ -450,5 +455,4 @@ img {
   }
 }
 
-// import media query
 @import "media";

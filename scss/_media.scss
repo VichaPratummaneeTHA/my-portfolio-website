@@ -1,5 +1,19 @@
 // Tablets & Smaller
 
+@media (max-width: 1024px) {
+  // Header
+  #header {
+    // Header Home
+    &-home {
+      height: 50rem;
+
+      .header-content {
+        padding-top: 15rem;
+      }
+    }
+  }
+}
+
 @media (max-width: 800px) {
   // Header
   #header {
@@ -9,6 +23,23 @@
 
       .header-content {
         padding-top: 5rem;
+      }
+    }
+  }
+
+  // Resume Timeline
+  #resume {
+    &-b {
+      ul li {
+        div {
+          width: 300px;
+        }
+      }
+
+      ul li:nth-child(even) {
+        div {
+          left: -334px;
+        }
       }
     }
   }
@@ -30,7 +61,7 @@
   #header {
     // Header Home
     &-home {
-      height: 15rem;
+      height: 10rem;
       border-bottom: 3px solid $main-color;
       background-position: 20% 30%;
 
@@ -42,6 +73,58 @@
     &-inner {
       height: 10rem;
     }
+  }
+
+  // Resume Timeline
+  #resume {
+    &-a {
+      margin-top: 0;
+      margin-bottom: 0;
+      div {
+        display: flex;
+        flex-direction: column;
+
+        h1 {
+          font-size: 2rem;
+          padding: 0.5rem;
+          margin-top: 0;
+        }
+
+        h3 {
+          font-size: 1.5rem;
+          padding: 0.5rem;
+        }
+      }
+    }
+    &-b {
+      ul {
+        padding-top: 5px;
+      }
+      ul li {
+        margin-left: 20px;
+        margin-bottom: 5px;
+        div {
+          width: calc(100vw - 90px);
+        }
+      }
+
+      ul li:nth-child(even) {
+        div {
+          left: 40px;
+        }
+
+        div:before {
+          left: -15px;
+          border-width: 8px 16px 8px 0;
+          border-color: transparent $light-color transparent transparent;
+        }
+      }
+    }
+  }
+
+  .items {
+    grid-gap: 5px;
+    margin-bottom: 1rem;
   }
 
   // Stack Grid Columns
@@ -156,6 +239,8 @@
   #header {
     // Header Home
     &-home {
+      height: 100vh;
+
       .header-content h1 {
         font-size: 2rem;
       }
