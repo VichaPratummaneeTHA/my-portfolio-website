@@ -200,6 +200,39 @@
           "award3";
         grid-gap: 1.2rem;
       }
+
+      .bio-image {
+        max-width: 100%;
+        max-height: 100%;
+      }
+
+      .bio {
+        max-width: 100%;
+        padding: 1rem 2rem;
+        text-align: left;
+
+        p {
+          font-size: 1.2rem;
+          padding-left: 2rem;
+        }
+
+        a {
+          display: inline-block;
+          width: 100%;
+          margin-top: 2rem;
+        }
+        span {
+          display: block;
+          font-size: 1rem;
+          text-align: center;
+        }
+        i {
+          display: block;
+          padding: 0;
+          text-align: center;
+          margin-right: 1rem;
+        }
+      }
     }
 
     &-c {

@@ -277,24 +277,33 @@ img {
       border-right: 3px solid $main-color;
       border-bottom: 3px solid $main-color;
       max-width: 100%;
-      max-height: 80%;
+      max-height: 100%;
     }
 
     .bio {
       grid-area: bio;
-      max-height: 80%;
+      max-height: 100%;
+      max-width: 100%;
       border-left: 3px solid $main-color;
       border-top: 3px solid $main-color;
-      padding: 3rem 0.8rem;
-      text-align: left;
+      padding: 3rem 5rem;
+      text-align: center;
 
       h2 {
         margin-bottom: 0.5rem;
         text-align: center;
       }
 
-      p {
+      h3 {
+        text-align: left;
         margin-bottom: 1rem;
+      }
+
+      p {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        text-align: left;
+        padding-left: 6rem;
       }
 
       span {
@@ -307,23 +316,29 @@ img {
         padding: 0.2rem;
       }
 
+      a {
+        display: block;
+        margin-top: 2rem;
+      }
+
       a:hover {
         background: $dark-color;
         color: set-text-color($dark-color);
+        margin-top: rem;
       }
 
-      .profile {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        // grid-row: ;
-        grid-gap: 0.5rem;
+      // .profile {
+      //   display: grid;
+      //   grid-template-columns: repeat(3, 1fr);
 
-        &-intersting {
-          display: grid;
-          grid-template-columns: repeat(4, 1fr);
-          grid-gap: 0.5rem;
-        }
-      }
+      //   grid-gap: 0.5rem;
+
+      //   &-intersting {
+      //     display: grid;
+      //     grid-template-columns: repeat(4, 1fr);
+      //     grid-gap: 0.5rem;
+      //   }
+      // }
     }
 
     .award-1 {
@@ -338,11 +353,11 @@ img {
       grid-area: award3;
     }
 
-    .award-1 .fas,
+    .award-1 .fab,
     .award-2 .fas,
     .award-3 .fas {
       color: $main-color;
-      margin: 1rem;
+      margin: 1.5rem;
     }
   }
 
