@@ -494,7 +494,7 @@ img {
   grid-gap: 1rem;
   margin-top: 2rem; }
   #home-a .specials p {
-    height: 65%; }
+    height: 50%; }
   #home-a .specials a {
     width: 100%;
     margin-bottom: 0rem; }
@@ -713,15 +713,19 @@ img {
     #header-home .header-content {
       padding-top: 15rem; }
   #home-a .specials p {
-    height: 58%; }
+    height: 60%; }
   #home-a .specials a {
-    padding: 0.5rem; } }
+    padding: 0.3rem; } }
 
 @media (max-width: 800px) {
   #header-home {
     height: 30rem; }
     #header-home .header-content {
       padding-top: 5rem; }
+  #home-a .specials p {
+    height: 67.5%; }
+  #home-a .specials a {
+    padding: 0.3rem; }
   #resume-b ul li div {
     width: 300px; }
   #resume-b ul li:nth-child(even) div {

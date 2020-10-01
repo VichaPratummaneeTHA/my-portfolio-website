@@ -17,11 +17,11 @@
     &-a {
       .specials {
         p {
-          height: 58%;
+          height: 60%;
         }
 
         a {
-          padding: 0.5rem;
+          padding: 0.3rem;
         }
       }
     }
@@ -37,6 +37,20 @@
 
       .header-content {
         padding-top: 5rem;
+      }
+    }
+  }
+
+  #home {
+    &-a {
+      .specials {
+        p {
+          height: 67.5%;
+        }
+
+        a {
+          padding: 0.3rem;
+        }
       }
     }
   }
