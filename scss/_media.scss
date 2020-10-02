@@ -26,6 +26,23 @@
       }
     }
   }
+
+  // Resume
+  #resume {
+    &-b {
+      ul li {
+        div {
+          width: 450px;
+        }
+      }
+
+      ul li:nth-child(even) {
+        div {
+          left: -484px;
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 800px) {

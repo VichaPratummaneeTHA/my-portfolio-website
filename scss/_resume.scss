@@ -13,6 +13,10 @@
       font-size: 2.3rem;
       color: $dark-color;
     }
+
+    i {
+      margin-right: 0.5rem;
+    }
   }
 
   &-b {
@@ -57,7 +61,7 @@
         div {
           position: relative;
           bottom: 0;
-          width: 400px;
+          width: 600px;
           padding: 1rem;
           background: $light-color;
           transition: all 0.5s ease-in-out;
@@ -78,7 +82,7 @@
         }
 
         &:nth-child(even) div {
-          left: -434px;
+          left: -634px;
           transform: translate(-200px, 0);
 
           /* Left Side Arrows */

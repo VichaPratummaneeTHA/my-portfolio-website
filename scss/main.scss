@@ -210,7 +210,7 @@ img {
         position: relative;
         border-radius: 50%;
         background: $dark-color;
-        color: set-text-color($dark-color);
+        color: $main-color;
         padding: 2rem;
         width: 150px;
         height: 130px;
@@ -219,12 +219,14 @@ img {
 
         &:hover {
           background: $main-color;
+          color: $dark-color;
           width: 170px;
           height: 150px;
           line-height: 1;
 
           .process-step {
             background: $dark-color;
+            color: set-text-color($dark-color);
           }
         }
       }
@@ -273,11 +275,16 @@ img {
 
     .bio-image {
       grid-area: bioimage;
-      border-radius: 10px;
-      border-right: 3px solid $main-color;
-      border-bottom: 3px solid $main-color;
+      // border-radius: 10px;
+      // border-right: 3px solid $main-color;
+      // border-bottom: 3px solid $main-color;
       max-width: 100%;
       max-height: 100%;
+
+      a {
+        display: block;
+        margin-top: 1rem;
+      }
     }
 
     .bio {
@@ -326,19 +333,6 @@ img {
         color: set-text-color($dark-color);
         margin-top: rem;
       }
-
-      // .profile {
-      //   display: grid;
-      //   grid-template-columns: repeat(3, 1fr);
-
-      //   grid-gap: 0.5rem;
-
-      //   &-intersting {
-      //     display: grid;
-      //     grid-template-columns: repeat(4, 1fr);
-      //     grid-gap: 0.5rem;
-      //   }
-      // }
     }
 
     .award-1 {
