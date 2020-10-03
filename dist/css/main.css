@@ -885,6 +885,8 @@ img {
     height: 67.5%; }
   #home-a .specials a {
     padding: 0.3rem; }
+  .bio-image {
+    margin-top: 3rem; }
   #resume-b ul li div {
     width: 300px; }
   #resume-b ul li:nth-child(even) div {
