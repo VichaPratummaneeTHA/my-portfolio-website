@@ -285,9 +285,24 @@ img {
         margin-top: 5rem;
       }
 
-      a {
-        display: block;
-        margin-top: 1rem;
+      #accordion .card {
+        background: $main-color;
+
+        &:hover {
+          background-color: $light-color;
+        }
+
+        .card-body {
+          border-bottom: 1px solid $main-color;
+
+          p {
+            font-size: 1.5rem;
+          }
+
+          a {
+            text-decoration: none;
+          }
+        }
       }
     }
 
@@ -351,7 +366,7 @@ img {
       grid-area: award3;
     }
 
-    .award-1 .fab,
+    .award-1 .fas,
     .award-2 .fas,
     .award-3 .fas {
       color: $main-color;
@@ -366,22 +381,22 @@ img {
       margin-bottom: 0.5rem;
     }
 
-    .progress {
-      // overflow: hidden;
-      // width: 80%;
-      height: 20px;
-      background: $medium-color;
-      border-radius: 5px;
-      margin-bottom: 0.5rem;
+    // .progress {
+    //   overflow: hidden;
+    //   width: 80%;
+    //   height: 20px;
+    //   background: $medium-color;
+    //   border-radius: 5px;
+    //   margin-bottom: 0.5rem;
 
-      div {
-        height: 100%;
-        background: $main-color;
-        border-radius: 5px;
-        color: #fff;
-        text-align: center;
-      }
-    }
+    //   div {
+    //     height: 100%;
+    //     background: $main-color;
+    //     border-radius: 5px;
+    //     color: #fff;
+    //     text-align: center;
+    //   }
+    // }
   }
 
   // About C

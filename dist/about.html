@@ -19,6 +19,15 @@
       rel="stylesheet"
     />
 
+    
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+
     <!-- css -->
     <link rel="stylesheet" href="css/main.css" />
 
@@ -68,13 +77,53 @@
           <div class="about-info">
             <div class="bio-image">
               <img  src="img/form_suite.circle.png" alt="bio-image">
-
+<!-- 
               <div class="button">
                 <a class="btn-dark" href="my_document/My_Resume.pdf">resume </a>
               <a class="btn-dark" href="my_document/Transcript.pdf">Transcript </a>
               <a class="btn-dark" href="my_document/completion with modern HTML & CSS.pdf">certificate</a>
+              </div> -->
+              <div id="accordion" class="mt-4">
+                    <!-- collapse 1-->
+                  <!-- Header -->
+                  <div class="card">
+                    <div class="card-header">
+                      <h5 class="mb-0">
+                        <div
+                          href="#collapse1"
+                          data-toggle="collapse"
+                          data-parent="#accordion"
+                        >
+                          <i class="fas fa-arrow-circle-down"></i> My Document
+                        </div>
+                      </h5>
+                    </div>
+                    <!-- Body -->
+                    <div id="collapse1" class="collapse">
+                      <div class="card-body">
+                        <p>
+                          <a href="my_document/My_Resume.pdf">resume </a>
+                        </p>
+                      </div>
+                      <div class="card-body">
+                        <p>
+                          <a href="my_document/Transcript.pdf">Transcript </a>
+                        </p>
+                      </div>
+                      <div class="card-body">
+                        <p>
+                          <a href="my_document/completion with modern HTML & CSS.pdf">certificate</a>
+                        </p>
+                      </div>
+                    </div>
+
+                  </div>
+
               </div>
-              
+               
+
+           
+
             </div>   
 
             <div class="bio bg-light">
@@ -100,9 +149,10 @@
             <!-- 1 -->
             <div class="award-1">
               
-              <i class="fab fa-stack-overflow fa-3x"></i>
-              <h3>stack Exchage</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, voluptatem.</p>  
+              <i class="fas fa-language fa-3x"></i>
+              <h3>TOEIC</h3>
+              <p>Test of English for International Communication</p>
+              <p>Score: 695 Point</p>  
             </div>
             <!-- 2 -->
             <div class="award-2">
@@ -117,6 +167,7 @@
               <h3>Gaming</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, voluptatem.</p>  
             </div>
+
           </div>
           <!-- End Grid Area -->
         </div>
@@ -128,29 +179,52 @@
           <h2 class="section-title">Technical Skills</h2>
           <div class="bottom-line"></div>
           <!-- Bars Progress -->
-          <h4>Photography: </h4>
+          <h4>HTML: </h4>
+          <!-- ANIMATED -->
+
+          <!-- <div class="progress">
+            <div style="width: 90%"></div>
+          </div> -->
+        <div class="progress">
+          <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" style="width:90%;"></div>
+        </div>
+        <h4>CSS: </h4>
+        <!-- <div class="progress">
+          <div style="width: 80%"></div>
+        </div> -->
           <div class="progress">
-            <div style="width: 100%"></div>
+            <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" style="width:80%;"></div>
           </div>
-          <h4>Adobe Photoshops: </h4>
-          <div class="progress">
-            <div style="width: 80%"></div>
-          </div>
-          <h4>Adobe Illustrator: </h4>
-          <div class="progress">
-            <div style="width: 80%"></div>
-          </div>
-          <h4>HTML & CSS: </h4>
-          <div class="progress">
+          <h4>SCSS: </h4>
+          <!-- <div class="progress">
             <div style="width: 60%"></div>
-          </div>
-          <h4>Wordpress: </h4>
+          </div> -->
           <div class="progress">
-            <div style="width: 60%"></div>
+            <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" style="width:60%;"></div>
           </div>
           <h4>Javascript: </h4>
+          <!-- <div class="progress">
+            <div style="width: 60%"></div>
+          </div> -->
           <div class="progress">
+            <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" style="width:60%;">
+            </div>
+          </div>
+          <h4>Wordpress: </h4>
+          <!-- <div class="progress">
             <div style="width: 40%"></div>
+          </div> -->
+          <div class="progress">
+            <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" style="width:40%;">
+            </div>
+          </div>
+          <h4>PHP: </h4>
+          <!-- <div class="progress">
+            <div style="width: 50%"></div>
+          </div> -->
+          <div class="progress">
+            <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" style="width:50%;">
+            </div>
           </div>
 
         </div>
@@ -228,7 +302,21 @@
     </div>
   </footer>
 
+   <!-- J Query -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+   <script
+     src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+     integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+     crossorigin="anonymous"
+   ></script>
+   <script
+     src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+     integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+     crossorigin="anonymous"
+   ></script>
+
   <!-- https://www.youtube.com/watch?v=POX3dT-pB4E -->
-  <!-- <script src="js/typewriter.js"></script> -->
+  <script src="js/typewriter.js"></script>
 </body>
 </html>

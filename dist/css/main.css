@@ -714,9 +714,16 @@ img {
   max-height: 100%; }
   #about-a .bio-image .button {
     margin-top: 5rem; }
-  #about-a .bio-image a {
-    display: block;
-    margin-top: 1rem; }
+  #about-a .bio-image #accordion .card {
+    background: #ecf027; }
+    #about-a .bio-image #accordion .card:hover {
+      background-color: #f4f4f4; }
+    #about-a .bio-image #accordion .card .card-body {
+      border-bottom: 1px solid #ecf027; }
+      #about-a .bio-image #accordion .card .card-body p {
+        font-size: 1.5rem; }
+      #about-a .bio-image #accordion .card .card-body a {
+        text-decoration: none; }
 
 #about-a .bio {
   grid-area: bio;
@@ -760,7 +767,7 @@ img {
 #about-a .award-3 {
   grid-area: award3; }
 
-#about-a .award-1 .fab,
+#about-a .award-1 .fas,
 #about-a .award-2 .fas,
 #about-a .award-3 .fas {
   color: #ecf027;
@@ -768,18 +775,6 @@ img {
 
 #about-b h4 {
   margin-bottom: 0.5rem; }
-
-#about-b .progress {
-  height: 20px;
-  background: #ccc;
-  border-radius: 5px;
-  margin-bottom: 0.5rem; }
-  #about-b .progress div {
-    height: 100%;
-    background: #ecf027;
-    border-radius: 5px;
-    color: #fff;
-    text-align: center; }
 
 #about-c .about-logos {
   display: grid;
