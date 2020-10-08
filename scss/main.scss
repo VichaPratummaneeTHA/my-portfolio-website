@@ -32,8 +32,7 @@ ul {
 
 h2,
 h3,
-h4,
-h5 {
+h4 {
   text-transform: uppercase;
 }
 
@@ -333,20 +332,21 @@ img {
       text-align: center;
 
       h2 {
-        margin-bottom: 0.5rem;
+        margin-bottom: 2rem;
         text-align: center;
       }
 
-      h3 {
+      h5 {
         text-align: left;
+        padding-left: 6rem;
         margin-bottom: 1rem;
       }
 
       p {
-        font-size: 1.5rem;
+        font-size: 1rem;
         margin-bottom: 1rem;
         text-align: left;
-        padding-left: 6rem;
+        padding-left: 2rem;
       }
 
       span {
@@ -361,7 +361,9 @@ img {
 
       a {
         display: block;
-        margin-top: 2rem;
+        width: 80%;
+        margin: 3rem auto 0;
+        border-radius: 5px;
       }
 
       a:hover {

@@ -564,8 +564,7 @@ ul {
 
 h2,
 h3,
-h4,
-h5 {
+h4 {
   text-transform: uppercase; }
 
 img {
@@ -747,16 +746,17 @@ img {
   padding: 3rem 5rem;
   text-align: center; }
   #about-a .bio h2 {
-    margin-bottom: 0.5rem;
+    margin-bottom: 2rem;
     text-align: center; }
-  #about-a .bio h3 {
+  #about-a .bio h5 {
     text-align: left;
+    padding-left: 6rem;
     margin-bottom: 1rem; }
   #about-a .bio p {
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin-bottom: 1rem;
     text-align: left;
-    padding-left: 6rem; }
+    padding-left: 2rem; }
   #about-a .bio span {
     display: inline-block;
     margin-bottom: 0.5rem; }
@@ -765,7 +765,9 @@ img {
     padding: 0.2rem; }
   #about-a .bio a {
     display: block;
-    margin-top: 2rem; }
+    width: 80%;
+    margin: 3rem auto 0;
+    border-radius: 5px; }
   #about-a .bio a:hover {
     background: #333;
     color: #fff;
@@ -898,6 +900,33 @@ img {
     padding: 0.3rem; }
   .bio-image {
     margin-top: 3rem; }
+  .bio span {
+    font-size: 0.8rem;
+    padding-left: 0.5rem; }
+  .bio a {
+    width: 100%; }
+  #about-d .testimonials p {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.5rem;
+    min-height: 100px; }
+  #about-d .testimonials span {
+    display: block;
+    margin-top: 0.5rem; }
+  #about-d .testimonials ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-top: 1.5rem;
+    align-items: center;
+    text-align: center; }
+  #about-d .testimonials img {
+    width: 70px;
+    height: 70px;
+    border: solid 2px #ecf027;
+    border-radius: 50%;
+    margin-right: 0;
+    margin-bottom: 0.5rem; }
   #resume-b ul li div {
     width: 300px; }
   #resume-b ul li:nth-child(even) div {
@@ -919,6 +948,8 @@ img {
       display: none; }
   #header-inner {
     height: 10rem; }
+  #home-a .section-title {
+    padding-top: 1rem; }
   #resume-a {
     margin-top: 0;
     margin-bottom: 0; }
@@ -975,22 +1006,23 @@ img {
     max-width: 100%;
     padding: 1rem 2rem;
     text-align: left; }
+    #about-a .bio h5 {
+      padding-left: 2rem;
+      line-height: 1.5; }
     #about-a .bio p {
       font-size: 1.2rem;
       padding-left: 2rem; }
     #about-a .bio a {
-      display: inline-block;
+      display: block;
       width: 100%;
       margin-top: 2rem; }
     #about-a .bio span {
       display: block;
       font-size: 1rem;
+      font-weight: bold;
       text-align: center; }
     #about-a .bio i {
-      display: block;
-      padding: 0;
-      text-align: center;
-      margin-right: 1rem; }
+      display: none; }
   #about-c {
     display: none; }
   #contact-a .text-fields {
@@ -1020,9 +1052,33 @@ img {
 @media (max-height: 580px) {
   #header-home {
     height: 100vh; }
+    #header-home .header-content {
+      padding-top: 3rem; }
     #header-home .header-content h1 {
-      font-size: 2rem; } }
-
-@media (max-height: 580px) {
-  #header-home .header-content {
-    padding-top: 3rem; } }
+      font-size: 2rem; }
+  #home-a .specials p {
+    height: 250px; }
+  #home-a .specials a {
+    padding: 0.3rem; }
+  #about-d .testimonials p {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.5rem;
+    min-height: 100px; }
+  #about-d .testimonials span {
+    display: block;
+    margin-top: 0.5rem; }
+  #about-d .testimonials ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-top: 1.5rem;
+    align-items: center;
+    text-align: center; }
+  #about-d .testimonials img {
+    width: 70px;
+    height: 70px;
+    border: solid 2px #ecf027;
+    border-radius: 50%;
+    margin-right: 0;
+    margin-bottom: 0.5rem; } }
