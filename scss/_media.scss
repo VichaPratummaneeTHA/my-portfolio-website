@@ -17,7 +17,7 @@
     &-a {
       .specials {
         p {
-          height: 57%;
+          height: 220px;
         }
 
         a {
@@ -176,6 +176,12 @@
     &-a {
       .section-title {
         padding-top: 1rem;
+      }
+
+      .specials {
+        p {
+          min-height: 100px;
+        }
       }
     }
   }
@@ -370,6 +376,10 @@
       padding: 1rem;
       height: 6rem;
 
+      .social .fab {
+        padding: 0.5rem;
+      }
+
       p {
         margin-bottom: 0.5rem;
       }
@@ -400,7 +410,7 @@
     &-a {
       .specials {
         p {
-          height: 250px;
+          min-height: 300px;
         }
 
         a {
