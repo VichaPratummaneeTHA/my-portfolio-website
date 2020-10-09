@@ -1081,4 +1081,27 @@ img {
     border: solid 2px #ecf027;
     border-radius: 50%;
     margin-right: 0;
-    margin-bottom: 0.5rem; } }
+    margin-bottom: 0.5rem; }
+  #resume-a div {
+    display: flex;
+    flex-direction: column; }
+    #resume-a div h1 {
+      font-size: 1.5rem;
+      padding: 0.5rem;
+      margin-top: 0; }
+    #resume-a div h3 {
+      font-size: 1rem;
+      padding: 0.5rem; }
+  #resume-b ul {
+    padding-top: 5px; }
+  #resume-b ul li {
+    margin-left: 20px;
+    margin-bottom: 5px; }
+    #resume-b ul li div {
+      width: calc(100vw - 90px); }
+  #resume-b ul li:nth-child(even) div {
+    left: 40px; }
+  #resume-b ul li:nth-child(even) div:before {
+    left: -15px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent #f4f4f4 transparent transparent; } }

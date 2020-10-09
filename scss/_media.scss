@@ -444,4 +444,49 @@
       }
     }
   }
+
+  // Resume Timeline
+  #resume {
+    &-a {
+      div {
+        display: flex;
+        flex-direction: column;
+
+        h1 {
+          font-size: 1.5rem;
+          padding: 0.5rem;
+          margin-top: 0;
+        }
+
+        h3 {
+          font-size: 1rem;
+          padding: 0.5rem;
+        }
+      }
+    }
+    &-b {
+      ul {
+        padding-top: 5px;
+      }
+      ul li {
+        margin-left: 20px;
+        margin-bottom: 5px;
+        div {
+          width: calc(100vw - 90px);
+        }
+      }
+
+      ul li:nth-child(even) {
+        div {
+          left: 40px;
+        }
+
+        div:before {
+          left: -15px;
+          border-width: 8px 16px 8px 0;
+          border-color: transparent $light-color transparent transparent;
+        }
+      }
+    }
+  }
 }
