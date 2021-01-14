@@ -551,7 +551,7 @@ body.lb-disable-scrolling {
   box-sizing: border-box; }
 
 body {
-  font-family: "Dosis", sans-serif;
+  font-family: 'Dosis', sans-serif;
   line-height: 1.6;
   background: #fff; }
 
@@ -576,7 +576,7 @@ img {
   height: 100vh;
   position: relative; }
   #header-home:before {
-    content: "";
+    content: '';
     background: url("../img/porto_view.jpg") no-repeat center center/cover;
     position: absolute;
     top: 0;
@@ -598,7 +598,7 @@ img {
   height: 5.5rem;
   position: relative; }
   #header-inner:before {
-    content: "";
+    content: '';
     position: absolute;
     background: url("../img/porto_view.jpg") no-repeat 20% 30%/cover;
     top: 0;
@@ -613,7 +613,7 @@ img {
   text-transform: uppercase;
   margin-top: 1rem;
   font-size: 1.5rem;
-  font-family: "Monoton", cursive; }
+  font-family: 'Monoton', cursive; }
 
 #main-nav {
   display: flex;
@@ -717,7 +717,7 @@ img {
 
 #about-a .about-info {
   display: grid;
-  grid-template-areas: "bioimage bio bio" "award1 award2 award3";
+  grid-template-areas: 'bioimage bio bio' 'award1 award2 award3';
   grid-gap: 1.2rem; }
 
 #about-a .bio-image {
@@ -823,7 +823,7 @@ img {
 
 #contact-a .text-fields {
   display: grid;
-  grid-template-areas: "name email" "subject phone" "message message";
+  grid-template-areas: 'name email' 'subject phone' 'message message';
   grid-gap: 1.2rem;
   margin-bottom: 1rem; }
   #contact-a .text-fields .name-input {
@@ -842,7 +842,7 @@ img {
     border: 1px solid;
     border-radius: 10px; }
 
-#contact-a button[type="submit"] {
+#contact-a button[type='submit'] {
   width: 50%; }
 
 #contact-b .contact-info {

@@ -1,11 +1,11 @@
-@import "config";
-@import "utilities";
-@import "lightbox";
-@import "item_grid";
-@import "resume";
-@import "menu";
+@import 'config';
+@import 'utilities';
+@import 'lightbox';
+@import 'item_grid';
+@import 'resume';
+@import 'menu';
 
-@import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 
 // General Styles
 
@@ -16,7 +16,7 @@
 }
 
 body {
-  font-family: "Dosis", sans-serif;
+  font-family: 'Dosis', sans-serif;
   line-height: 1.6;
   background: #fff;
 }
@@ -56,7 +56,7 @@ img {
     position: relative;
 
     &:before {
-      content: "";
+      content: '';
       background: $bg-image no-repeat center center / cover;
       position: absolute;
       top: 0;
@@ -87,7 +87,7 @@ img {
     position: relative;
 
     &:before {
-      content: "";
+      content: '';
       // background: $bg-image no-repeat center center / cover;
       position: absolute;
       background: $bg-image no-repeat 20% 30% / cover;
@@ -111,7 +111,7 @@ img {
   text-transform: uppercase;
   margin-top: 1rem;
   font-size: 1.5rem;
-  font-family: "Monoton", cursive;
+  font-family: 'Monoton', cursive;
 }
 
 // Main Nav
@@ -282,8 +282,8 @@ img {
     .about-info {
       display: grid;
       grid-template-areas:
-        "bioimage bio bio"
-        "award1 award2 award3";
+        'bioimage bio bio'
+        'award1 award2 award3';
       grid-gap: 1.2rem;
     }
 
@@ -476,9 +476,9 @@ img {
     .text-fields {
       display: grid;
       grid-template-areas:
-        "name email"
-        "subject phone"
-        "message message";
+        'name email'
+        'subject phone'
+        'message message';
       grid-gap: 1.2rem;
       margin-bottom: 1rem;
 
@@ -506,7 +506,7 @@ img {
       }
     }
 
-    button[type="submit"] {
+    button[type='submit'] {
       width: 50%;
     }
   }
@@ -561,4 +561,4 @@ img {
   }
 }
 
-@import "media";
+@import 'media';
